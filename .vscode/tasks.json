@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "problemMatcher": [],
+      "label": "npm: dev",
+      "detail": "next dev"
+    },
+    {
+      "type": "npm",
+      "script": "db:studio",
+      "problemMatcher": [],
+      "label": "npm: db:studio",
+      "detail": "prisma studio"
+    },
+    {
+      "type": "npm",
+      "script": "storybook",
+      "problemMatcher": [],
+      "label": "npm: storybook",
+      "detail": "run storybook"
+    }
+  ]
+}
